@@ -23,7 +23,7 @@ jobs:
 
     - name: Build exe
       run: |
-        pyinstaller --onefile --windowed Team_Maker.py
+        pyinstaller --onefile --windowed TeamMaker.py
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
